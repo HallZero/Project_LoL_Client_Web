@@ -1,0 +1,101 @@
+@font-face {
+    font-family: friz;
+    src: url(fonts/Friz\ Quadrata\ Regular.ttf);
+}
+
+html{
+    font-family: friz;
+    color: rgb(205, 190, 145);
+    text-decoration: solid;
+}
+
+header{
+    background-color: rgb(2,13,22);
+    height: 10vh;
+    width: 100vmax;
+    color: rgb(205, 190, 145);
+    border-bottom: 1px solid rgb(61,65,67);
+    position: relative;
+}
+
+body{
+    background-color: rgb(2,13,22);
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.user-image{
+    display: inline-block;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.playButton{
+    display: inline;
+    border: 2px solid rgb(9, 127, 125);
+    color: rgb(240,230,210);
+    background-color: rgb(30,35,40);
+    height: 30px;
+    width: 125px;
+    cursor: pointer;
+    margin-top: 1.5em;
+    margin-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#group-image{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    margin-top: 1em;
+    margin-left: 50px;
+}
+
+#menu-text, #menu-text-element{
+    padding: 10px;
+    text-decoration: solid;  
+}
+
+a:visited{
+    color: rgb(205, 190, 145);
+}
+
+.profileMenu{
+    float:right;
+    border-left: 1px solid rgb(196, 183, 140);
+    height: 10vh;
+    margin-left: auto;
+    text-align: left;
+
+}
+
+.friendList{
+    float:right;
+    border-left: 1px solid rgb(196, 183, 140);
+    height: 90vh;
+    margin-left: auto;
+    text-align: left;
+    margin-right: none;
+
+}
+
+.playerID{
+    height: 1em;
+    display: inline-block;
+    padding: none;
+}
+
+#main-text-element{
+    padding: 5px;
+    font-size: 1em;
+}
+
+#main-text{
+    margin-left: 20px;
+}
